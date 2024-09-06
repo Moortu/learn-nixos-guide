@@ -130,4 +130,4 @@
 - more resources
 	-
 -
-- Thanks to notashelf and the hyprland nix-nios discord
+- Thanks to notashelf, vimjoyer and everyone else that I used something from.
