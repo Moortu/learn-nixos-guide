@@ -1,1 +1,117 @@
-# learn-nixos-guide
+- learn some nix language
+	- https://nixcloud.io/tour/?id=introduction/nix
+	- https://nix.dev/manual/nix/2.18/language/
+	- https://nix.dev/tutorials/nix-language
+	- https://learnxinyminutes.com/docs/nix
+	- https://nixos.org/guides/nix-pills/04-basics-of-language
+	- {{video(https://www.youtube.com/watch?v=UgrwoAGSPOQ&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=14)}}
+	-
+	-
+-
+- install nixos through the minimal installer (on a vm to start, enable 3d acceleration)
+	- **Use the minimal installer**. Calamares in nixpkgs contains nasty hacks and limitations that can severely cripple your installation, or create obscure issues. Use the minimal installer to familiarize yourself with the ecosystem, and you will have a smoother experience.
+		- You may still get the *graphical* ISO if you prefer to boot from a graphical environment. It will contain the command-line tools you can use to install NixOS manually, but make sure to **avoid Calamares** regardless of your installer ISO.
+	- Initial Configuration.nix
+		- initial configuration.nix
+			- setup a timezone
+			- setup a user
+			- setup networking
+			- setup localeSettings
+			- setup nix garbage collection
+	- Boot into nixos
+	- Resources
+		- https://nixos.org/manual/nixos/stable/#sec-installation-manual
+		- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/get-started-with-nixos
+		- https://nixos.org/manual/nixos/stable/#ch-configuration
+-
+- More Configuration.nix
+	- install an editor
+		- nvim
+		- vscodium
+	- Setup display
+		- Setup wayland
+		- Setup xwayland
+		- Setup opengl
+		- Setup a display-manager
+			- greetd
+				- regreet
+				- tuigreet
+			- sddm
+		- Setup a compositor
+			- Hyprland
+			- KDE plasma
+			- sway
+	- Setup Audio
+	- Install font
+	- Install packages
+		- allow unfree
+		- allow running generic linux
+		- install zsh
+		- install terminal emulator
+- Resources
+	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/get-started-with-nixos
+	- https://nixos.org/manual/nixos/stable/#ch-configuration
+-
+- Learn nix packages
+	- https://nixos-and-flakes.thiscute.world/nixpkgs/intro
+	- [noogle.dev](https://noogle.dev/)
+	- [search.nixos.org](https://search.nixos.org/)
+	- {{video(https://www.youtube.com/watch?v=jHb7Pe7x1ZY&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=28)}}
+	-
+-
+- Learn Flakes
+	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/introduction-to-flakes
+	- {{video(https://www.youtube.com/watch?v=S3VBi6kHw5c&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=2)}}
+	- {{video(https://www.youtube.com/watch?v=4ZoBGlkMPWI&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=12)}}
+	- {{video(https://www.youtube.com/watch?v=JCeYq72Sko0&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=27)}}
+	-
+-
+-
+- Move your config into a flake
+	- {{video(https://www.youtube.com/watch?v=rEovNpg7J0M&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=20)}}
+	-
+-
+- nix modules
+	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/modularize-the-configuration
+	- https://nixos.org/manual/nixos/stable/#sec-writing-modules
+	-
+-
+- nix home manager
+	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/start-using-home-manager
+	- https://nix-community.github.io/home-manager/
+	- https://home-manager-options.extranix.com
+	- {{video(https://www.youtube.com/watch?v=FcC2dzecovw&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=3)}}
+	- {{video(https://www.youtube.com/watch?v=a67Sv4Mbxmc&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=1)}}
+-
+-
+-
+- Nix modules & home manager
+	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/nixos-flake-and-module-system
+	- {{video(https://www.youtube.com/watch?v=vYc6IzKvAJQ&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=22)}}
+	-
+- nix gaming
+	- {{video(https://www.youtube.com/watch?v=qlfm3MEbqYA&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=25)}}
+	-
+-
+-
+- nix secrets
+	- agenix
+	- sops-nix
+		- {{video(https://www.youtube.com/watch?v=G5f6GC7SnhU&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=15)}}
+-
+-
+- build your own nix iso
+	- https://nixos.org/manual/nixos/stable/#sec-building-image
+	- {{video(https://www.youtube.com/watch?v=-G8mN6HJSZE&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=21)}}
+-
+-
+- nix derivations
+	- {{video(https://www.youtube.com/watch?v=WT75jfETWRg&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=23)}}
+-
+-
+- nix ricing
+	- Stylix
+	- {{video(https://www.youtube.com/watch?v=ljHkWgBaQWU&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=26)}}
+	-
+-
+- Thanks to notashelf and the hyprland nix-nios discord
