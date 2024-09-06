@@ -11,6 +11,8 @@
 - install nixos through the minimal installer (on a vm to start, enable 3d acceleration)
 	- **Use the minimal installer**. Calamares in nixpkgs contains nasty hacks and limitations that can severely cripple your installation, or create obscure issues. Use the minimal installer to familiarize yourself with the ecosystem, and you will have a smoother experience.
 		- You may still get the *graphical* ISO if you prefer to boot from a graphical environment. It will contain the command-line tools you can use to install NixOS manually, but make sure to **avoid Calamares** regardless of your installer ISO.
+	- Try to install it without this video, only use it as a reference
+		- {{video(https://youtu.be/63sSGuclBn0?list=PLuRxZ95-8LY1mlotZMYGYib5sXJRw1RxW&t=242)}}
 	- Initial Configuration.nix
 		- initial configuration.nix
 			- setup a timezone
@@ -23,6 +25,8 @@
 		- https://nixos.org/manual/nixos/stable/#sec-installation-manual
 		- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/get-started-with-nixos
 		- https://nixos.org/manual/nixos/stable/#ch-configuration
+		- {{video(https://www.youtube.com/watch?v=Wn-6Ls-yJAQ)}}
+		-
 -
 - More Configuration.nix
 	- install an editor
@@ -56,14 +60,22 @@
 	- https://nixos-and-flakes.thiscute.world/nixpkgs/intro
 	- [noogle.dev](https://noogle.dev/)
 	- [search.nixos.org](https://search.nixos.org/)
+	- {{video(https://www.youtube.com/watch?v=CqFcl4BmbN4&list=PLuRxZ95-8LY1mlotZMYGYib5sXJRw1RxW&index=6)}}
 	- {{video(https://www.youtube.com/watch?v=jHb7Pe7x1ZY&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=28)}}
 	-
+-
+- nix modules
+	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/modularize-the-configuration
+	- https://nixos.org/manual/nixos/stable/#sec-writing-modules
+	- {{video(https://www.youtube.com/watch?v=4nzvv3L9ShY&list=PLuRxZ95-8LY1mlotZMYGYib5sXJRw1RxW&index=7)}}
+	- {{video(https://www.youtube.com/watch?v=N_-cI-c_iyQ&list=PLuRxZ95-8LY1mlotZMYGYib5sXJRw1RxW&index=3)}}
 -
 - Learn Flakes
 	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/introduction-to-flakes
 	- {{video(https://www.youtube.com/watch?v=S3VBi6kHw5c&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=2)}}
 	- {{video(https://www.youtube.com/watch?v=4ZoBGlkMPWI&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=12)}}
 	- {{video(https://www.youtube.com/watch?v=JCeYq72Sko0&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=27)}}
+	- {{video(https://www.youtube.com/watch?v=9JFZ-xIEzkE&list=PLuRxZ95-8LY1mlotZMYGYib5sXJRw1RxW&index=8)}}
 	-
 -
 -
@@ -71,10 +83,6 @@
 	- {{video(https://www.youtube.com/watch?v=rEovNpg7J0M&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=20)}}
 	-
 -
-- nix modules
-	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/modularize-the-configuration
-	- https://nixos.org/manual/nixos/stable/#sec-writing-modules
-	-
 -
 - nix home manager
 	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/start-using-home-manager
@@ -93,6 +101,9 @@
 	- {{video(https://www.youtube.com/watch?v=qlfm3MEbqYA&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=25)}}
 	-
 -
+- nix advanced networking
+	- {{video(https://www.youtube.com/watch?v=UW1LzSAoRPE&list=PLuRxZ95-8LY1mlotZMYGYib5sXJRw1RxW&index=9)}}
+	-
 -
 - nix secrets
 	- agenix
@@ -112,6 +123,11 @@
 - nix ricing
 	- Stylix
 	- {{video(https://www.youtube.com/watch?v=ljHkWgBaQWU&list=PLko9chwSoP-15ZtZxu64k_CuTzXrFpxPE&index=26)}}
+	- {{video(https://www.youtube.com/watch?v=63sSGuclBn0&list=PLuRxZ95-8LY1mlotZMYGYib5sXJRw1RxW)}}
+-
+-
+-
+- more resources
 	-
 -
 - Thanks to notashelf and the hyprland nix-nios discord
